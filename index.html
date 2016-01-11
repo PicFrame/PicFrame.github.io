@@ -1,0 +1,194 @@
+<html>
+<head>
+	<title>PicFrame</title>
+	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="jquery.onepage-scroll.min.js"></script>
+	<script type="text/javascript" src="pgwslider.min.js"></script> 
+	<script type="text/javascript" src="script.js"></script>
+	<link href="onepage-scroll.css" rel="stylesheet" type="text/css">
+	<link href="pgwslider.min.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<link href="./img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+  <div class="main">
+    <section class="page1">
+		<div class="page_container">
+			<div class="header">
+				<div class="logo">
+					<img src="./img/logo.png">
+				</div>
+				<div class="picframe">PicFrame</div>
+				<div class="slogan">Slogan</div>
+				<div class="clear"></div>
+			</div>
+			<div id="menu">
+				<ul>
+				   <li><a class="menuclick" data-id="2" href="#">What is PicFrame?</a></li>
+				   <li><a class="menuclick" data-id="3" href="#">Features</a></li>
+				   <li><a class="menuclick" data-id="4" href="#">How it works</a></li>
+				   <li><a class="menuclick" data-id="11" href="#">Permissions</a></li>
+				   <li><a class="menuclick" data-id="12" href="#">Future development</a></li>
+				   <li><a class="menuclick" data-id="12" href="#">Photo Credit</a></li>
+				   <li><a class="menuclick" data-id="12" href="#">Source Code</a></li>
+				</ul>
+			</div>
+			<div class ="getit">
+				<h1>Where to get PicFrame?</h1>
+				<div class ="googleplay">
+					<h2>App available at:</h2>
+					<a href="https://play.google.com/store/apps/details?id=picframe.at.picframe&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1">
+					<img class="resize_horizontal" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" /></a>
+				</div>
+				<div class ="github">
+					<h2>Source available at:</h2>
+					<a href="https://github.com/PicFrame/picframe">
+					<img class="resize_horizontal" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" /></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+	</section>
+    <section class="page2">
+		<div class="page_container">
+			<h1>What is PicFrame?</h1>
+			<p>PicFrame was created with the aim of bringing old, discarded tablets back to life as digital picture frames: put your tablet on the wall, and use PicFrame to watch a slideshow of your photographs.</p>
+			<p>If your have an ownCloud server, you can easily connect it to PicFrame; any new pictures you upload to ownCloud will automatically be downloaded to your tablet, and be displayed as part of the slideshow.</p>
+			<p>Of course, PicFrame also runs on newer Android versions, and can be used on Android smartphones or tablets as a quick, easy way to display or scroll through your pictures.</p>
+			<div class="slideshow">
+				<ul class="pgwSlider">
+					<li><img src="./img/features1.png"></li>
+					<li><img src="./img/features2.png"></li>
+					<li><img src="./img/features3.png"></li>
+					<li><img src="./img/features4.png"></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="page3">
+		<div class="page_container">
+			<h1>Features</h1>
+			<ul>
+				<li>runs on old devices, starting with Froyo (v.2.2)</li>
+				<li>automatic slideshow, with configurable timers for the display length of each picture.<br>Manually swiping through pictures is an option as well</li>
+				<li>optionally scale your picture to the screen resolution of your preferred device</li>
+			</ul>
+			<img class="image_side_by_side_left" src="./img/features1.png"/>
+			<img class="image_side_by_side_right" src="./img/features2.png"/>
+			<div class="clear"></div>
+			<ul>
+				<li>optional randomized picture order</li>
+				<li>11 different transition styles (if the device is running on Honeycomb 3.0 or higher)</li>
+			</ul>
+			<img class="image_side_by_side_left" src="./img/features3.png"/>
+			<img class="image_side_by_side_right" src="./img/features4.png"/>
+			<div class="clear"></div>
+			<ul>
+				<li>automatic download from ownCloud server, with configurable download frequency</li>
+			</ul>
+		</div>
+	</section>
+	<section class="page4">
+		<div class="page_container">
+			<h1>How it works</h1>
+			<h2>Getting started</h2>
+			<img class="image" src="./img/how1.png"/>
+			<p>Open the settings to select your own picture source. The example pictures you see on first start will be shown in the future if your selected source folder is empty.</p>
+			
+		</div>
+	</section>
+	<section class="page5">
+		<div class="page_container">
+			<h2>Display pictures from SD-Card</h2>
+			<p>Display the toolbar on the main screen by swiping down, or by pausing the slideshow by tapping the screen.</p>
+			<img class="image" src="./img/how2.png"/>
+			<p>Select “External SD" (this option is pre-selected on your first use of PicFrame).</p>
+			<img class="image" src="./img/how3.png"/>
+			<div class="clear"></div>
+		</div>
+	</section>
+	<section class="page6">
+		<div class="page_container">
+			<p>Click on "Directory", to open the folder picker, and navigate to the directory from which you want to display your pictures. By default, all the chosen directory’s subdirectories will be included in the slideshow. Switch off "Include sub-directory" to change this.</p>
+			<img class="image" src="./img/how4.png"/>
+			<br>
+			<img class="image" src="./img/how5.png"/>
+		</div>
+	</section>
+	<section class="page7">
+		<div class="page_container">
+			<h2>Display pictures from ownCloud</h2>
+			<p>Display the toolbar on the main screen by swiping down, or by pausing the slideshow by tapping the screen.</p>
+			<img class="image" src="./img/how2.png"/>
+			<p>Under "Source Settings" "Picture Source", select "OwnCloud".</p>
+			<img class="image" src="./img/how3.png"/>
+		</div>
+	</section>
+		<section class="page8">
+		<div class="page_container">
+			<br>
+			<img class="image" src="./img/how6.png"/>
+			<p>Enter login data to your ownCloud server in the "Username" and "Password" fields, and the full url to you ownCloud server (including, if applicable, "http"/"https","www"), in "OwnCloud URL".</p>
+			<img class="image" src="./img/how7.png"/>
+		</div>
+	</section>
+	</section>
+		<section class="page9">
+		<div class="page_container">
+			<p>You will need to start a first download of pictures or set a new download interval to set off the first download from your source.</p>
+			<p>For an immediate download you can set off a download of pictures from your server from the slideshow screen: tap the screen or swipe down to display the toolbar, and tap the "download" icon.</p>
+			<img class="image" src="./img/how8.png"/>
+		</div>
+	</section>
+	</section>
+		<section class="page10">
+		<div class="page_container">
+			<p>PicFrame will periodically check for new pictures on your ownCloud server, and download any new pictures. Pictures that were deleted on the server will not be automatically deleted locally.</p>
+			<p>The default interval for downloads is 12 hours. Go to "Update Interval" in the settings to change the interval, or to switch off automatic downloads.</p>
+			<img class="image" src="./img/how9.png"/>
+			<p>Downloaded pictures will be saved to a new folder on your SD-Card called "Picframe/Display", from which they are displayed.</p>
+		</div>
+	</section>
+	<section class="page10">
+		<div class="page_container">
+			<h1>Permissions and why we need them</h1>
+			<p>PicFrame uses the following permissions:</p>
+			<h3>READ_EXTERNAL_STORAGE</h3>
+			<p>Access to your external storage (SD-card), in order to display the pictures in PicFrame.</p>
+			<h3>WRITE_EXTERNAL_STORAGE</h3>
+			<p>Access to your external storage (SD-card), to save the pictures downloaded from your ownCloud server.
+			When you download pictures from ownCloud, PicFrame creates three folders: "PicFrame", and the subfolders "Cache" and "Display".
+			These folders are <strong>not</strong> automatically removed when you uninstall PicFrame.</p>
+			<h3>WAKE_LOCK</h3>
+			<p>In order to keep the tablet or smartphone from dimming or switching to sleep mode.</p>
+			<h3>INTERNET</h3>
+			<p>Internet access, needed for the download from ownCloud.</p>
+			<h3>ACCESS_NETWORK_STATE</h3>
+			<p>Access to your current network state; To know whether wifi is on and connected or not. Because the download only happens via wifi.</p>
+		</div>
+	</section>
+	<section class="page11">
+		<div class="page_container">
+			<h1>Future development</h1>
+			<p>For the future, we have planned to add a Dropbox connection.
+			We are also currently working on improving user experience.
+			For this reason, we welcome any feedback from our users.
+			If you have any issues or ideas for improvement, please write to us under <a href="mailto:teampicframe@gmail.com">teampicframe@gmail.com</a>.</p>
+			<br>
+			<h1>Photo Credit</h1>
+			<p>The example pictures in PicFrame were provided by Esraa AlHafidh, Michael Hedl, Clemens Hlawacek, Kevin Niles, and Arthur Zaczek.</p>
+			<p>Pictures used on our the Google Play Store are by Clemens Hlawacek, Margit Spindler, and Ebenezer Bonney Ussher.</p>
+			<br>
+			<h1>PicFrame Source Code</h1>
+			<p>PicFrame is licensed under the GNU General Public License version 3 (or higher).
+			All code (as well as a build script to build an apk yourself) is published on <a href="https://github.com/PicFrame/picframe">Github</a>.</p>
+			<p>PicFrame uses <a href="https://github.com/PicFrame/android-library">ownCloud Android Library</a>, available under MIT license.
+			For PicFrame, ownCloud Android Library source code was altered in two places,
+			our fork of ownCloud Android Library is avaible <a href="https://github.com/PicFrame/android-library">here.</a><p>
+			<p>Feel free to post an Issue on our Github repository if you run into any problems.</p>
+		</div>
+	</section>
+  </div>
+</body>
+</html>
